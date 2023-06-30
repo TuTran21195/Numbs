@@ -24,7 +24,7 @@ h1{
 
 p{
     line-height: 1.5em;
-    text-align: justify;
+    
 }
 button {
     font-family: "Mali", sans-serif;
@@ -425,6 +425,7 @@ header {
 .things__item p{
     margin: 3rem 2rem;
     font-size: 27px;
+    text-align: justify;
 }
 
 /* THINGS Phone screen */
@@ -500,7 +501,7 @@ header {
 
 .yeuem__chatchit{
     /* background-color: var(--red-l); */
-    padding: 2em 0 0 1em;
+    padding: 2em 1em 0 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly ;
@@ -520,7 +521,7 @@ header {
 
 .yeuem__chatchit--detail p{
     margin: 0.6em 0;
-    
+    text-align: justify;
     font-size: medium;
     color: black;
 }
@@ -602,13 +603,14 @@ header {
     min-height: 150px;
     /* margin: 1rem 25px 2rem 50px; */
     margin: 3rem 1rem 3rem 2.5rem;
-    padding: 1.3em 1em 1em 3em;
+    padding: 1.3em 2em 1em 3em;
     /* margin-bottom: 2rem; */
     /* margin: 150px 0; */
 }
 
 .block1 p {
-    font-size: large; margin-bottom: .6em;
+    font-size: medium; margin-bottom: .6em;
+    text-align: justify;
 }
 
 .block1 img{
@@ -631,9 +633,13 @@ header {
     border-radius: 35px;
     min-height: 150px;
     margin: 3rem 1rem 3rem 2.5rem;
-    padding: 1em 1em 1em 3em;
+    padding: 1em 2em 1em 3em;
     /* margin: 0 25px 2rem 50px; */
     /* margin-bottom: 4rem; */
+}
+
+.block2 p{
+    text-align: justify;
 }
 
 
@@ -667,6 +673,7 @@ header {
     }
     .block1 p{
         font-size: 42px;
+        text-align: justify;
     }
     #p1{
         font-weight: 600; 
