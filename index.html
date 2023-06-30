@@ -1,0 +1,261 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap lam quyen html</title>
+<!-- reset.css -->
+    <link rel="stylesheet" href="./reset.css">
+
+<!-- gg font Mali: light 300 & medium 500 -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300;500&display=swap" rel="stylesheet"> -->
+<!-- gg font Cherry Bomb One: regular 400 (mập mạp đáng yêu)-->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Mali:wght@300;500&display=swap" rel="stylesheet"> -->
+
+
+    
+<!-- gg font Shantell Sans:  (mập mạp đáng yêu)-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Mali:wght@300;500&family=Shantell+Sans:wght@300;500;800&display=swap" rel="stylesheet">
+
+
+<!-- main.css -->
+    <link rel="stylesheet" href="./main.css">
+
+
+</head>
+<body>
+
+<!-- HEADER -->
+    <header>
+        <nav class="navbar">
+            <!-- --- cái để lấp khoảng trống ở màn hình desktop--- -->
+            <span class="navbar__logo">
+                <img src="./imgTest/pnj tách nền/component/cloud 3.png" alt="ảnh lấp tróng">
+            </span>
+
+            <!-- links  -->
+            <ul class="navbar__links">
+                <!-- <li class="navbar__link"><a href="#banner">Home</a></li> -->
+                <li class="navbar__link"><a href="#things">Work</a></li>
+                <!-- <li class="navbar__link"><a href="#about">About</a></li> -->
+                <li class="navbar__link"><a href="#yemyem">Yemyem</a></li>
+                <li class="navbar__link"><a href="#about">Thanks</a></li>
+                <button class="navbar__link"><a href="#footer" style="color: aliceblue; "> Connect</a></button>
+                <!-- <li class="navbar__link"> <button class="navbar__btn"><a href="#"> Connect</a></button></li> -->
+                <!-- <li class = "navbar__link"><a href="#"> <button class="navbar__btn"> Contact</button></a></li> -->
+            </ul>
+
+            <!-- menu button  -->
+            <div class="navbar__icons">
+                <div class="navbar__icon"></div>
+            </div>
+
+        </nav>
+    </header>
+   
+
+<!-- BANNER  -->
+<section id="banner">
+    <div class="container">
+        <!-- --banner img--- -->
+        <div class="banner__img">
+            <!-- <img src="./imgTest/used img/cat 1.png" alt=""> -->
+            <img src="./imgTest/pnj tách nền/dễ thương/rơi(sure).png" alt="">
+            <div class="subbanner__img"></div>
+        </div>
+
+        <!-- ---loi gioi thieu--- -->
+        <div class="banner__heading">
+            <h1 style=" font-family: Shantell Sans; font-weight: 800; font-size: larger;">Xin chào, tớ là Tú</h1>
+            <p>Đây chỉ là một trang web vô tri tớ tạo ra lúc rảnh rỗi thôi. Nếu cậu thấy nó không oke thì...kệ cậu! 
+                Nếu cậu muốn biết trang web này có gì thì không cần kéo xuống đâu, chả có gì ở đây cả.</p>
+            <a href="#"><button class="banner__button">Xem thêm</button></a>
+            <div class="banner__socials">
+                <a href="https://github.com/TuTran21195" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                <a href="https://www.instagram.com/chrome.96morr/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/tutranchillas" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <!-- <a href="https://www.facebook.com/tutranchillas" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a> -->
+                <a href="#" onclick="alert('Khum cóa đâu ahihi :>');"><i class="fa-brands fa-wordpress"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- THINGS -->
+<section id="things">
+    <!-- chỉ có 1 hàng & 2 block chữ, đằng sau 2 block đó là ảnh mây -->
+    <!-- ---2 img nằm ở ngoài container--- -->
+
+    <!-- <div class="things__imgs">
+    </div> -->
+
+    <div class="things___img--left">
+        <img src="./imgTest/pnj tách nền/component/cloud 1.png" alt="cloud1">
+    </div>
+    <!-- <div class="things___img--right">
+        <img src="./imgTest/pnj tách nền/component/cloud 1.png" alt="cloud2">
+    </div>   -->
+
+    <!-- Bên trong container này thì chứa 2 block -->
+    <div class="container"> 
+        <div class="things__items">
+            <div class="things__item" id="item1">
+                <h1>Đùa cậu chút thôi</h1>
+                <p>Cậu có muốn biết vài thứ hay ho về code không nào?! Biết máy tính ENIAC chứ? Nó là chiếc máy tính đầu tiên. 09/09/1947 chiếc máy tính đã hoạt động không chính xác, họ đã tìm thấy một con mối trong ENIAC bởi bên trong nó rất ấm và thích hợp để cư ngụ. Từ đó người ta dùng thuật ngữ Bug (con mối) để chỉ một lỗi sai trong kỹ thuật
+                <br>   
+                </p>
+            </div>
+            <div class="things__item" id="item2">
+                <img src="./imgTest/pnj tách nền/component/cloud 1.png" alt="cloud on phone">
+                <h1>"It's not a bug, it's a feature”</h1>
+                <p>Đấy không phải là LỖI, đây là TÍNH NĂNG! Tớ ở đây để nói với cậu rằng nếu có ai đó nói đó là lỗi của cậu thì....đúng mà (●'◡'●) Nên là không có gì phải bức xúc cả, hãy nhẹ nhàng nói rằng đó là tính năng thôi.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- YEMYEM: iu em iu em -->
+<section id="yemyem">
+    <!-- bao gồm các ảnh và đoạn chữ -->
+    <div class="container">
+        <div class="yeuem">
+            <!-- --img-- -->
+            <img src="./imgTest/pnj tách nền/năng động/couple-bg1.png" alt="couple1">
+            <!-- chat -->
+            <div class="yeuem__chatchit">
+                <h1>Cậu vô tri thật đấy</h1>
+                <div class="yeuem__chatchit--detail"> 
+                    Đọc xong mẩu truyện trên mà vẫn chưa từ bỏ sao?
+                    <p>Hỡi cô gái, hoặc chàng trai có tâm hồn thiếu nữ, hãy quay về với đất mẹ thân yêu, nơi đây chẳng có gì cho em đâu. Trong kẽ hở của thời gian và hiện thực, tuổi xuân cũng như sắc đẹp, mỏng manh như trang giấy bị gió hong khô. Một đời, có một lần động tâm, một lần quyến luyến, một lần không tha, một lần si tình như vậy là đủ rồi. Mau dừng lại!</p> 
+                </div>
+            </div>
+        </div>
+        <!-- divider -->
+        <div class="divider"></div>
+
+
+        <div class="yeuem">
+            <!-- --img-- -->
+            <img src="./imgTest/pnj tách nền/năng động/couple.png" alt="couple1">
+            <!-- chat -->
+            <div class="yeuem__chatchit">
+                <h1>Không ngờ còn lướt đến đây</h1>
+                <div class="yeuem__chatchit--detail"> 
+                    Cô gái này thiệc thú zị! ⚆_⚆ 
+                    <p>Thật ra không định nói gì, không làm gì cả. Chỉ cảm thấy dáng điệu này của em đúng là hiếm thấy. Cho nên dừng lại để ngắm thêm một lát. Nếu có một ngày, em mặc lên mình bộ váy cưới, trở thành cô dâu của người khác, anh sẽ không nhắc lại những cuồng si một thời. Nếu có một ngày, anh khoác lên mình bộ Veston, trở thành chú rể của người khác, em vẫn mãi là giấc mộng thuở ban đầu của anh.
+                    
+                    </p> 
+                    <p>Nhưng em đừng nghĩ chỉ bằng sự đáng yêu đó mà tôi cho phép em lướt xuống thêm.</p>
+                </div>
+            </div>
+        </div>
+        <!-- divider -->
+        <div class="divider"></div>
+
+
+        <div class="yeuem">
+            <!-- --img-- -->
+            <img src="./imgTest/pnj tách nền/năng động/bicycle boy.png" alt="couple1">
+            <!-- chat -->
+            <div class="yeuem__chatchit">
+                <h1>Tớ phải tự xin lỗi bản thân!</h1>
+                <div class="yeuem__chatchit--detail"> 
+                    Chời ơi mình có lỗi với mình ghê!
+                    <p> Tớ cứ nghĩ bản thân mình đã thực sự vô tri hết thuốc chữa rồi. Cậu nói xem, có ai làm quần quật mấy ngày để tạo ra một thứ vô tri như vậy?! Tớ đã âm thầm tự trách chính mình, tự hỏi liệu bản thân cố chấp như vậy để làm cái gì chứ? Lẽ nào gió sương phủ đời này còn chưa đặng, nhất quyết phải trải thêm đắng cay?!
+                    </p> 
+
+                    <p>Tớ vô tri là thế đấy. Thế mà hóa ra có người còn vô tri hơn tớ. Định lướt xuống phải khum? 
+                    <br>o(*￣▽￣*)ブ Đứng lướt nữa, không có gì ở đây đâu!!! Ngộ Hông, mau quay đầu là bờ!!!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- divider -->
+        <div class="divider"></div>
+
+
+        <div class="yeuem">
+            <!-- --img-- -->
+            <img src="./imgTest/pnj tách nền/năng động/shopping-girl-bg.png" alt="couple1">
+            <!-- chat -->
+            <div class="yeuem__chatchit">
+                <h1>Bó tay với nàng</h1>
+                <div class="yeuem__chatchit--detail"> 
+                    Ba phần bất lực, bảy phần như ba.
+                    <p>Em mau nói xem, tôi phải làm thế nào thì em mới bớt đi sự cố chấp đó?!  Mau dừng lại đi! Rồi sẽ đến một lúc nào đó em nhận ra rằng hóa ra, tình yêu đẹp đẽ mà em ấp ủ hy vọng chỉ là bọt nước, em bước tới ranh giới cấm kỵ mà không hề hay biết, chỉ cần hụt chân một cái thì sẽ muôn đời muôn kiếp không trở lại được nữa, anh đang dùng chút lý trí còn sót lại để giúp em giữ thăng bằng, nhưng em khước từ, thậm chí vô tri oán hận anh!</p> 
+                </div>
+            </div>
+        </div>
+        <!-- divider -->
+        <div class="divider"></div>
+
+
+        
+
+
+    </div>
+</section>
+
+<!-- LOI CAM ON  -->
+<section id="about">
+    <!-- Trong này có 3 khối và 2 ảnh: 3 khối đều nằm tr container, ảnh thì được position absolute với các khối -->
+    <!-- trong đó :
+        - block 1 & hoodie girl:
+            +luôn đi liền với nhau (thành 1 khối) khi thu phóng 1 cái thì cái còn lại cũng sẽ thu phóng theo
+            +right của hoodie girl thì luôn chạm với phần star của thẻ p bên tr block1, phần top thì luôn chạm top của block1 -->
+
+    <div class="about__blocks">
+        <div class="container">
+            <div class="block1">
+                <p id="p1" style="font-family: Shantell Sans;"> 
+                    Thức đêm anh tỉnh bằng trà.
+                    Thích em anh trả bằng tình được hong?
+                </p>
+                <p>Được rồi, tôi không can thiệp vào chuyện của em nữa. Thế nhưng hãy nhớ: Buông tay, không phải vì không còn yêu. Mà vì phát hiện bản thân trở thành chướng ngại hạnh phúc của người kia.</p>
+                <img src="./imgTest/pnj tách nền/năng động/hoodie girl.png" alt="hoodie girl">
+            </div>
+            <div class="block2">
+                <p>
+                    Thật ra nếu em còn lướt đến tận đây, vậy thì tôi cũng có đôi lời muốn nói với em.
+                    <br>Có đôi khi chúng ta ngỡ rằng cái mình từ bỏ chỉ là tình cảm trong một thời điểm, nhưng đến phút cuối mới biết rằng, hóa ra nó là cả cuộc đời.
+                </p>
+            </div>
+            <div class="block3">
+                <img src="./imgTest/pnj tách nền/dễ thương/flower-girl 2.png" alt="">
+            </div>
+
+
+        </div>
+    </div>
+
+</section>
+
+<!-- FOOTER  -->
+ <!-- Copyright ©2023 Trấn Tù  -->
+<footer id="footer">
+    <div class="container">
+        <div class="footer__socials">
+            <a href="https://github.com/TuTran21195" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+            <a href="https://www.instagram.com/chrome.96morr/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/tutranchillas" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <!-- <a href="https://www.facebook.com/tutranchillas" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a> -->
+            <a href="#"  onclick="alert('Khum cóa đâu ahihi :>');" ><i class="fa-brands fa-wordpress"></i></a>
+        </div>
+        <div class="footer__copyright">
+            <h1 style="color: rgb(98, 98, 98);">Copyright ©2023 by Trấn Tù </h1>
+        </div>
+    </div>
+</footer>
+
+
+<!-- font awesome  -->
+<script src="https://kit.fontawesome.com/6aecf69fc5.js" crossorigin="anonymous"></script>
+<!-- main js  -->
+    <script src="./main.js"> </script>
+</body>
+</html>
