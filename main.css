@@ -250,45 +250,35 @@ header {
 /* ==== banner ==== */
 
 #banner {
-    position: relative; 
+    /* position: relative;  */
     /* vị trí của banner bắt đầu từ đầu trình duyệt luôn chứ ko cách header */
-    height: 100vh; 
+    width: 100%;
+    height: auto; 
+
     display: flex;
     align-items: center;
 }
 
 .banner__img{
-    position: absolute;
-    top: 5px;
+    /* position: absolute; */
+    /* top: 5px; */
     right: -42px; 
     filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.25));
     scale: 0.65;
-    z-index: -1;
-}
-.subbanner__img{
-    position: absolute;
-    top: -63px;
-    left: -47px;
-    width: 131px;
-    height: 133px;
-    transform: rotate(-33.66deg);
-    flex-shrink: 0;
-    background: url("./imgTest/pnj tách nền/dễ thương/cat.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: drop-shadow(4px 4px 3px rgba(255, 121, 152, 0.675)) ;
+    /* z-index: -1; */
 }
 
+
 .banner__heading {
-   min-width: 300px;
-   position: absolute;
+   min-width: 90vw;
+   /* position: absolute; */
    margin: 0 auto;
    text-align: center;
    color: var(--den);
 }
 
 .banner__heading h1{
-    padding-top: 4em;
+    /* padding-top: 4em; */
     margin-bottom: .8em;
 }
 
@@ -314,9 +304,34 @@ header {
     transition: var(--smooth);
 }
 
+/* /+++desktop banner++/ */
+
 @media (min-width: 62em) {
+    #banner {
+        position: relative; 
+        /* vị trí của banner bắt đầu từ đầu trình duyệt luôn chứ ko cách header */
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+    }
+    
+    .banner__img{
+        position: absolute;
+        top: 5px;
+        right: -42px; 
+        filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.25));
+        scale: 0.65;
+        z-index: -1;
+    }
+
     .banner__heading{
+        min-width: 0;
         max-width: 500px;
+        height: 100vh;
+        position: relative;
+        top: 50vh; 
+        /* display: flex; */
+        /* align-items: center; */
         text-align: initial;
         margin: 0;
         padding-top: 0em;
